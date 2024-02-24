@@ -4,7 +4,6 @@
 var gradovi = [];
 
 //
-
 document.getElementById("dodajGrad").addEventListener("click", function () {
 	var grad = prompt("Upisite grad i temperaturu");
 	grad = grad.split(" ");
@@ -15,9 +14,7 @@ document.getElementById("dodajGrad").addEventListener("click", function () {
 	gradovi.push(privremeniGrad);
 	console.log(gradovi);
 });
-
 //
-
 document.getElementById("topliGradovi").addEventListener("click", function () {
 	ispisTempHot = document.getElementById("toplaTemperatura");
 	ispisTempHot.innerHTML = " ";
