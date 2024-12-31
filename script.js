@@ -12,7 +12,6 @@ document.getElementById("dodajGrad").addEventListener("click", function () {
 		temperatura: grad[1],
 	};
 	gradovi.push(privremeniGrad);
-	console.log(gradovi);
 });
 //
 document.getElementById("topliGradovi").addEventListener("click", function () {
